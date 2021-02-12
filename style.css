@@ -24,9 +24,13 @@ body{
 .grid img{
     border: 2px solid black;
     border-radius: 50px;
-   background-blend-mode: multiply;
-   padding-top: 0;
-   
+    background-blend-mode: multiply;
+    padding-top: 0;
+   text-align: center; 
+   display: flex;  
+   justify-content: center; 
+  margin-left: 80px;
+  margin-top: 20px;
 }
 .bodyimg{
     background-image: url("back.jpg");
@@ -41,12 +45,13 @@ body{
     display : flex;
     flex-direction: column;
     justify-content: space-evenly;
-    font-family: fantasy;
+    font-family: fantext-align: ;
 }
 .bodyimg h3{
     color : black
 }
 .item {
+  
     margin-top: 50px;
     border-radius: 20px;
     background-color: white;
